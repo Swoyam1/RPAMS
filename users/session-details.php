@@ -1,0 +1,17 @@
+<?php
+    $session_user_id=$_SESSION["user_id"];
+    $session_email=$_SESSION["email"];
+    $session_full_name=$_SESSION['full_name'];
+    $session_phone_number=$_SESSION['phone_number'];
+    $session_gender=$_SESSION['gender'];
+    $session_nationality=$_SESSION['nationality'];
+    $session_training_status=$_SESSION['training_status'];
+    $session_training_certificate_number=$_SESSION['training_certificate_number'];
+    $session_training_certificate=$_SESSION['training_certificate'];
+    $session_area=$_SESSION['area'];
+    $session_city=$_SESSION['city'];
+    $session_state=$_SESSION['state'];
+    $session_country=$_SESSION['country'];
+    $session_pin_code=$_SESSION['pin_code'];
+    $session_date_of_birth=$_SESSION['date_of_birth'];
+?>
