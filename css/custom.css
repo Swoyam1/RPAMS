@@ -1,0 +1,94 @@
+.hidden,.hide
+{
+    display:none;
+}
+
+.myflex
+{
+    display: flex;
+}
+
+.carousel-inner img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 900px;
+}
+
+.sliderBluredImg
+{
+    -webkit-filter: blur(10px);
+    position:absolute;
+    left:0px;
+    top: 0px;
+    z-index:-1;
+    max-width:100%!important;
+    vertical-align: middle;
+}
+
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out .3s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+
+.alert_text
+{
+    animation-name: example;
+    animation-duration: 0.6s;
+}
+
+@keyframes example {
+    0%   {padding-left: 0px;}
+    25%  {padding-left: 20px;}
+    50%  {padding-left: 10px;}
+    75%  {padding-left: 20px;}
+    100% {padding-left: 0px;}
+  }
+
+
+/*Preloder
+#preloader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('http://localhost/rpams/images/logo3.gif') no-repeat center;
+    z-index: 99;
+}  */
+
+
+
+/*puts the google places autocomplete dropdown results above the bootstrap modal 1050 zindex.*/
+.pac-container {
+    z-index: 1051 !important;
+}
+
+
+.mapSearchBox{
+    background-color: #fff;
+    font-weight: 370;
+    padding: 0px 23px;
+    text-overflow: ellipsis;
+    width: 40%;
+    position: absolute;
+    vertical-align: middle;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    background-clip: padding-box;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    min-width: 65px;
+    height: 40px;
+    margin: 10px 0;
+    border: 0;
+}
+
+
+
